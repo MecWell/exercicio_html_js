@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./button.css">
+
+</head>
+<body>
+    <header>
+        <div >
+            <h1 class="exer1">Exercício Banking</h1>
+            <h2 class="dep2">Depósitos</h2>
+                <form id="form-deposito">
+                    <input type="text" id="nome-Beneficiario" placeholder="Nome completo beneficiário" required></input>
+                    <p class="error-mensage">
+                        O nome precisa ser completo
+                    </p>
+                    <p class="accept-mensage">
+                        Excelente!
+                    </p>
+                    <input type="number" id="numero-conta" placeholder="Número da conta" required></input>
+                    <input type="number" id="valor-deposito" placeholder="Valor" required></input>
+                    <button id="botao" type="submit">Depositar</button>
+                </form>
+                <p class="success-mensage"></p>
+        </div>
+    </header>
+   <script src="./main.js"></script>
+</body>
+</html>
